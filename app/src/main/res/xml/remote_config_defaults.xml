@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- START xml_defaults -->
+<defaultsMap>
+    <entry>
+        <key>chestclashroyal1</key>
+        <value>https://play.google.com/store/apps/details?id=com.tips.ultramannexus</value>
+    </entry>
+    <entry>
+        <key>chestclashroyal2</key>
+        <value>https://play.google.com/store/apps/details?id=com.tips.ultramannexus</value>
+    </entry>
+
+    <entry>
+        <key>chestclashroyal3</key>
+        <value>https://www.google.com</value>
+    </entry>
+
+    <entry>
+        <key>chestclashroyal4</key>
+        <value>https://play.google.com/store/apps/details?id=com.tips.ultramannexus</value>
+    </entry>
+
+    <entry>
+        <key>chestclashroyal5</key>
+        <value>https://play.google.com/store/apps/details?id=com.tips.ultramannexus</value>
+    </entry>
+
+    <entry>
+        <key>chestclashroyal6</key>
+        <value>https://www.google.com/</value>
+    </entry>
+</defaultsMap>
