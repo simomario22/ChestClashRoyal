@@ -28,6 +28,12 @@ dependencies {
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
     compile 'com.google.firebase:firebase-config:10.2.6'
+    compile 'com.google.android.gms:play-services-ads:10.2.6'
+    compile 'com.google.android.gms:play-services-location:10.2.6'
+
+
+    compile project(':cheetah-mobile-3.4.7')
 }
 
 apply plugin: 'com.google.gms.google-services'
+
