@@ -10,6 +10,12 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        manifestPlaceholders = [onesignal_app_id: "23d0c5fa-2195-4f8c-9ba6-d6eabb936ca7",
+                                // Project number pulled from dashboard, local value is ignored.
+                                onesignal_google_project_number: "286093220216"]
+
+        multiDexEnabled = true
     }
     buildTypes {
         release {
@@ -30,7 +36,8 @@ dependencies {
     compile 'com.google.firebase:firebase-config:10.2.6'
     compile 'com.google.android.gms:play-services-ads:10.2.6'
     compile 'com.google.android.gms:play-services-location:10.2.6'
-
+    // OneSignal SDK
+    compile 'com.onesignal:OneSignal:[3.5.3,4.0.0)'
 
     compile project(':cheetah-mobile-3.4.7')
 }

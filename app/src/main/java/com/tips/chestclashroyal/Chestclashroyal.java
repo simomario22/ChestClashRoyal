@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.appodeal.ads.Appodeal;
+import com.onesignal.OneSignal;
 
 public class Chestclashroyal extends AppCompatActivity {
 
@@ -13,6 +14,14 @@ public class Chestclashroyal extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chestclashroyal);
+
+
+        //OneSignal
+
+        OneSignal.startInit(this)
+                .inFocusDisplaying(OneSignal.OSInFocusDisplayOption.Notification)
+                .unsubscribeWhenNotificationsAreDisabled(true)
+                .init();
 
 
         //appodeal
